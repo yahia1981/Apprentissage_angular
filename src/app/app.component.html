@@ -1,0 +1,13 @@
+           
+   <!-- <Menu  [@slideInOut]="menuState"></Menu>-->
+   <!--<app-menuparent  [@slideInOut]="menuState"></app-menuparent>  -->
+   <ul  [@slideInOut]="menuState" class="menuniv_1">
+   <Menu  *ngFor="let menuniv1 of menuniv1s" [menuniv1]="menuniv1" [sousmenu]="sousmenu" ></Menu>
+        </ul>
+   
+   <app-item-menu #sousmenu></app-item-menu>
+    <button (click)="toggleMenu()" class="hamburger">
+    <span>toggle menu</span>
+    </button>
+    <!--<div [appHighlight]="'green'">Texte en highlight</div>-->
+    

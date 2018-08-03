@@ -1,0 +1,15 @@
+
+ span#trian {
+     position: absolute;
+     left:180px;
+     top: 4px;
+    width: 0; 
+    height: 0; 
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    
+    border-left: 5px solid rgb(255, 255, 255);
+  }
+  li{list-style:none;}
+ /*ul{position:relative;
+     left:200px;}*/
